@@ -1,0 +1,24 @@
+languageCode = "de"
+languageName = "Deutsch"
+languageDirection = "ltr"
+weight = 2
+
+title = "Yeganeh Azmi"
+copyright = "&copy; 2025 Yeganeh Azmi · Alle Rechte vorbehalten."
+
+[params]
+  dateFormat = "2. Januar 2006"
+  mainSections = ["posts"]
+  description = "Ein leistungsstarkes, leichtgewichtiges Hugo-Theme mit Tailwind CSS."
+
+[params.author]
+  name = "Yeganeh Azmi"
+  image = "img/portrait.png"
+  headline = "Digitale Strategien mit Kreativität & Daten"
+  bio = "Ich bin eine aufstrebende Digital Marketing Spezialistin mit Erfahrung in SEO, Social Media und Content Creation. Ich liebe es, kreative Ideen mit datenbasierten Entscheidungen zu verbinden, um wirkungsvolle digitale Erlebnisse zu gestalten."
+
+  links = [
+    { linkedin = "https://www.linkedin.com/in/yeganehazmi/" },
+    { instagram = "https://www.instagram.com/yeganeh.azmi" },
+    { youtube = "https://www.youtube.com/@YegaNedia" },
+  ]

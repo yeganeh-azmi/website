@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Yeganeh Azmi"
+copyright = "&copy; 2025 Yeganeh Azmi · All rights reserved."
+
+[params]
+  dateFormat = "2 January 2006"
+  mainSections = ["posts"]
+  description = "Digital Marketing, Creativity & Content — with a curious and data-driven mindset."
+
+[params.author]
+  name = "Yeganeh Azmi"
+  image = "img/portrait.png"
+  headline = "Curious mind. Digital Marketer. AI Enthusiast."
+  bio = "I’m Yeganeh — a Berlin-based digital marketer with a passion for creative storytelling and data-driven strategy. I explore the power of AI and content to help brands connect, engage, and grow."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/yeganehazmi/" },
+    { instagram = "https://www.instagram.com/yeganeh.azmi" },
+    { youtube = "https://www.youtube.com/@YegaNedia" },
+  ]
