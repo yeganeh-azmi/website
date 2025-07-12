@@ -1,65 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://yeganehazmi.com/de/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yeganehazmi.com/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://yeganehazmi.com/de/authors/"
-                />
-  </url><url>
-    <loc>https://yeganehazmi.com/de/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yeganehazmi.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://yeganehazmi.com/de/categories/"
-                />
-  </url><url>
-    <loc>https://yeganehazmi.com/de/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yeganehazmi.com/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://yeganehazmi.com/de/series/"
-                />
-  </url><url>
-    <loc>https://yeganehazmi.com/de/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yeganehazmi.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://yeganehazmi.com/de/tags/"
-                />
-  </url><url>
-    <loc>https://yeganehazmi.com/de/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yeganehazmi.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://yeganehazmi.com/de/"
-                />
-  </url>
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/posts/</loc>
+            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/posts/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/posts/"
+              />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/posts/version-2/</loc>
+            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/posts/version-2/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/posts/version-2/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/</loc>
+            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/"
+              />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/projects/markdown/</loc>
+            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/projects/markdown/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/projects/markdown/"
+              />
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/projects/</loc>
+            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/projects/"
+              />
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://yeganehazmi.com/de/contact/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://yeganehazmi.com/contact/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="https://yeganehazmi.com/de/contact/"
+              />
+          </url>
+    
+  
 </urlset>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Yeganeh Azmi</title>
+    <link>https://yeganehazmi.com/tags/docs/</link>
+    <description>Recent content in Docs on Yeganeh Azmi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Yeganeh Azmi · All rights reserved.</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yeganehazmi.com/tags/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s New in 2.0 ✨</title>
+      <link>https://yeganehazmi.com/posts/version-2/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/posts/version-2/</guid>
+      <description>Version 2 takes Congo to new heights, making the theme even more powerful while still maintaining its lightweight footprint.</description>
+    </item>
+  </channel>
+</rss>

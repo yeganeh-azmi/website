@@ -6,55 +6,56 @@
     <description>Recent content in Tags on Yeganeh Azmi</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2025 Yeganeh Azmi · All rights reserved.</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yeganehazmi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docs</title>
+      <link>https://yeganehazmi.com/tags/docs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/tags/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New</title>
+      <link>https://yeganehazmi.com/tags/new/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/tags/new/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Css</title>
       <link>https://yeganehazmi.com/tags/css/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://yeganehazmi.com/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
       <link>https://yeganehazmi.com/tags/html/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://yeganehazmi.com/tags/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://yeganehazmi.com/tags/hugo/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://yeganehazmi.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
       <link>https://yeganehazmi.com/tags/markdown/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://yeganehazmi.com/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
-      <title>Shortcodes</title>
-      <link>https://yeganehazmi.com/tags/shortcodes/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://yeganehazmi.com/tags/shortcodes/</guid>
+      <title>Sample</title>
+      <link>https://yeganehazmi.com/tags/sample/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/tags/sample/</guid>
       <description></description>
     </item>
     <item>
-      <title>Emoji</title>
-      <link>https://yeganehazmi.com/tags/emoji/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://yeganehazmi.com/tags/emoji/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Text</title>
-      <link>https://yeganehazmi.com/tags/text/</link>
-      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://yeganehazmi.com/tags/text/</guid>
+      <title>advanced</title>
+      <link>https://yeganehazmi.com/tags/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/tags/advanced/</guid>
       <description></description>
     </item>
   </channel>

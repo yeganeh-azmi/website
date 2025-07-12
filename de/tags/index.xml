@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Yeganeh Azmi</title>
+    <title>Etiquetas on Yeganeh Azmi</title>
     <link>https://yeganehazmi.com/de/tags/</link>
-    <description>Recent content in Tags on Yeganeh Azmi</description>
+    <description>Recent content in Etiquetas on Yeganeh Azmi</description>
     <generator>Hugo</generator>
     <language>de</language>
+    <copyright>&amp;copy; 2025 Yeganeh Azmi · Alle Rechte vorbehalten.</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yeganehazmi.com/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docs</title>
+      <link>https://yeganehazmi.com/de/tags/docs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New</title>
+      <link>https://yeganehazmi.com/de/tags/new/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/new/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beispiele</title>
+      <link>https://yeganehazmi.com/de/tags/beispiele/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/beispiele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://yeganehazmi.com/de/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://yeganehazmi.com/de/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://yeganehazmi.com/de/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avanzada</title>
+      <link>https://yeganehazmi.com/de/tags/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yeganehazmi.com/de/tags/advanced/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
