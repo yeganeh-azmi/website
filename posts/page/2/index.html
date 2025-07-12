@@ -157,42 +157,341 @@
 
     <div class="content">
       
-  <section class="container list">
-    <header>
-      <h1 class="title">
-        <a class="title-link" href="https://yeganehazmi.com/posts/">
-          Posts
-        </a>
-      </h1>
-    </header>
-    
-    <ul><li>
-  <span class="date">July 10, 2023</span>
-  <a class="title" href="/posts/math-typesetting.pt-br/">Configuração de Equações Matemáticas</a>
-</li>
-<li>
-  <span class="date">July 10, 2023</span>
-  <a class="title" href="/posts/math-typesetting/">Math Typesetting</a>
-</li>
-<li>
-  <span class="date">July 9, 2023</span>
-  <a class="title" href="/posts/html-and-css-only-tabs/">HTML and CSS only tabs</a>
-</li>
-<li>
-  <span class="date">July 9, 2023</span>
-  <a class="title" href="/posts/html-and-css-only-tabs.pt-br/">HTML and CSS only tabs</a>
-</li>
-<li>
-  <span class="date">July 8, 2023</span>
-  <a class="title" href="/posts/mermaid-support/">Mermaid JS support</a>
-</li>
-<li>
-  <span class="date">July 8, 2023</span>
-  <a class="title" href="/posts/mermaid-support.pt-br/">Mermaid JS support</a>
-</li>
-</ul>
+<section class="container list">
+  <header>
+    <h1 class="title">
+      Posts
+    </h1>
+  </header>
 
+  
+
+  <div class="post-cards" style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  ">
     
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/math-typesetting.pt-br/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">Configuração de Equações Matemáticas</h2>
+        <p><p>Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.</p></p>
+        <small>July 10, 2023</small>
+      </a>
+    </div>
+    
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/math-typesetting/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">Math Typesetting</h2>
+        <p><p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p></p>
+        <small>July 10, 2023</small>
+      </a>
+    </div>
+    
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/html-and-css-only-tabs/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">HTML and CSS only tabs</h2>
+        <p><h2 id="shortcodes">
+  Shortcodes
+  <a class="heading-link" href="#shortcodes">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The following content:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Hello&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Hello World!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Goodbye&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Goodbye Everybody!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><p>Will generate:</p>
+
+
+
+
+
+<div class="tabs tabs-left">
+  
+
+
+
+
+<style>
+  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {
+    display: block;
+  }
+</style>
+
+<input type="radio" class="tab-input" name="tab-select-0" id="tab-0-0" checked/>
+<label for="tab-0-0" class="tab-label">Hello</label>
+<div class="tab-content tab-content-0-0">
+  Hello World!
+</div>
+
+
+
+
+
+
+
+
+<style>
+  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {
+    display: block;
+  }
+</style>
+
+<input type="radio" class="tab-input" name="tab-select-0" id="tab-0-1" />
+<label for="tab-0-1" class="tab-label">Goodbye</label>
+<div class="tab-content tab-content-0-1">
+  Goodbye Everybody!
+</div>
+
+
+
+
+</div>
+
+
+
+<h2 id="right-alignment">
+  Right alignment
+  <a class="heading-link" href="#right-alignment">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>You can also align the tabs to the right:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tabgroup</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Hello&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Hello World!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Goodbye&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Goodbye Everybody!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><p>Giving you this look:</p></p>
+        <small>July 9, 2023</small>
+      </a>
+    </div>
+    
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/html-and-css-only-tabs.pt-br/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">HTML and CSS only tabs</h2>
+        <p><h2 id="shortcodes">
+  Shortcodes
+  <a class="heading-link" href="#shortcodes">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>O seguinte conteúdo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Hello&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Hello World!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Goodbye&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Goodbye Everybody!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><p>Irá gerar:</p>
+
+
+
+
+
+<div class="tabs tabs-left">
+  
+
+
+
+
+<style>
+  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {
+    display: block;
+  }
+</style>
+
+<input type="radio" class="tab-input" name="tab-select-0" id="tab-0-0" checked/>
+<label for="tab-0-0" class="tab-label">Hello</label>
+<div class="tab-content tab-content-0-0">
+  Hello World!
+</div>
+
+
+
+
+
+
+
+
+<style>
+  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {
+    display: block;
+  }
+</style>
+
+<input type="radio" class="tab-input" name="tab-select-0" id="tab-0-1" />
+<label for="tab-0-1" class="tab-label">Goodbye</label>
+<div class="tab-content tab-content-0-1">
+  Goodbye Everybody!
+</div>
+
+
+
+
+</div>
+
+
+
+<h2 id="alinhamento-à-direita">
+  Alinhamento à direita
+  <a class="heading-link" href="#alinhamento-%c3%a0-direita">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Você também pode alinhas as tabs à direita:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tabgroup</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Hello&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Hello World!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">tab</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Goodbye&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Goodbye Everybody!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tab</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">tabgroup</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><p>Obtendo o seguinte resultado:</p></p>
+        <small>July 9, 2023</small>
+      </a>
+    </div>
+    
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/mermaid-support/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">Mermaid JS support</h2>
+        <p><p>If you want to use <a href="https://mermaid-js.github.io/mermaid/#/"  class="external-link" target="_blank" rel="noopener">Mermaid-JS</a> on your website.
+Provide <code>mermaid</code> as <a href="https://gohugo.io/content-management/shortcodes/#readout"  class="external-link" target="_blank" rel="noopener">Shortcode</a> in your markdown file.</p>
+<div class="mermaid">
+flowchart LR
+
+    A --> B
+
+    B --> C
+
+    C --> D
+
+    D --> B
+
+
+</div>
+
+<div class="mermaid">
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>Bob: Hi Bob
+Bob->>Alice: Hi Alice
+
+</div>
+
+<p>Find more example on <a href="https://mermaid-js.github.io/mermaid/#/"  class="external-link" target="_blank" rel="noopener">Mermaid-JS</a> website.</p></p>
+        <small>July 8, 2023</small>
+      </a>
+    </div>
+    
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="/posts/mermaid-support.pt-br/" style="text-decoration: none; color: inherit;">
+        
+        <h2 style="margin-top: 0.75rem;">Mermaid JS support</h2>
+        <p><p>Se quiser usar o <a href="https://mermaid-js.github.io/mermaid/#/"  class="external-link" target="_blank" rel="noopener">Mermaid-JS</a> em sua página.
+Use o <a href="https://gohugo.io/content-management/shortcodes/#readout"  class="external-link" target="_blank" rel="noopener">shortcode</a> <code>mermaid</code> em seus conteúdos Markdown.</p>
+<div class="mermaid">
+flowchart LR
+
+    A --> B
+
+    B --> C
+
+    C --> D
+
+    D --> B
+
+
+</div>
+
+<div class="mermaid">
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>Bob: Hi Bob
+Bob->>Alice: Hi Alice
+
+</div>
+
+<p>Entro mais exemplos na página do <a href="https://mermaid-js.github.io/mermaid/#/"  class="external-link" target="_blank" rel="noopener">Mermaid-JS</a>.</p></p>
+        <small>July 8, 2023</small>
+      </a>
+    </div>
+    
+  </div>
+
+  
 
 
 
@@ -245,7 +544,7 @@
 </ul>
 
 
-  </section>
+</section>
 
     </div>
 
