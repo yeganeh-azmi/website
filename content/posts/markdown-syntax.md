@@ -15,6 +15,8 @@ categories = [
 ]
 series = ["Theme Demo"]
 aliases = ["migrate-from-jekyl"]
+image = "/images/portrait.png"
+summary = "Learn how I used data-driven insights and AI tools to increase social media engagement by 40%."
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

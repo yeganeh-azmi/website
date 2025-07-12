@@ -1,0 +1,51 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+<section class="container list">
+  <header>
+    <h1 class="title">
+      {{ .Title }}
+    </h1>
+  </header>
+
+  {{ .Content }}
+
+  <div class="post-cards" style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  ">
+    {{ range .Paginator.Pages }}
+    <div class="card" style="
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.25rem;
+      max-width: 540px;
+      width: 100%;
+      justify-self: center;
+    ">
+      <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
+        {{ with .Params.image }}
+          <img src="{{ . }}" alt="{{ $.Title }}" style="
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 4px;
+          ">
+        {{ end }}
+        <h2 style="margin-top: 0.75rem;">{{ .Title }}</h2>
+        <p>{{ .Summary }}</p>
+        <small>{{ .Date.Format "January 2, 2006" }}</small>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+</section>
+{{ end }}
